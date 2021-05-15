@@ -1,0 +1,88 @@
+a{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	text-decoration:none;
+}
+.jumbotron{
+	max-height: 120px;
+}
+.jumbotron h2{
+	margin-top: -20px;
+	color:deeppink;
+
+}
+.jumbotron p{
+	margin-top: -10px;
+}
+
+hr{
+	background: #E1E1E1;
+}
+.cloth-model{
+	position: relative;
+	top: 10px;
+}
+.cloth-model img{
+	cursor: pointer;
+	transition: .5s;
+
+}
+.cloth-model img:hover{
+	transform: translateX(10px);
+}
+.preview img{
+	position: relative;
+	left: -60px;
+}
+.parameter{
+	padding-top: 70px;
+}
+.parameter h6{
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+.parameter h1{
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-top: -20px;
+}
+.parameter p{
+	color: #a8a8a8;
+}
+.parameter h5{
+	letter-spacing: 4px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.parameter h5 span{
+	letter-spacing: 0;
+	color: #a8a8a8;
+	font-size: .8em;
+}
+.cart button{
+	padding: 15px 20px;
+	background: #474747;
+	color: white;
+	border-radius: 0;
+	margin-left: 18px;
+
+}
+.cart button:first-of-type{
+	padding: 15px 100px;
+	background: #474747;
+	color: white;
+	border-radius: 0;
+}
+.row .caption h4 a{
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family:  sans-serif;
+}

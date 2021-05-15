@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;;
+}
+a{
+  text-decoration: none;
+}
+.navbar-brand{
+  color: black;
+  font-weight: 800;
+
+}
+.nav-link{
+  margin: 10px;
+  color: black;
+  font-weight: bolder;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.breadcrumb{
+  background: black;
+  margin-bottom: 0px !important;
+}
+.breadcrumb .crumb-inner{
+  font-size: 15px;
+  color: white;
+}
+.row{
+  overflow: hidden;
+}
+.container .content{
+  position: absolute;
+  top: 30%;
+  left: 24%;
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  letter-spacing: 3px;
+  border: solid 3px white;
+  padding: 20px;
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.container .men img{
+  margin: 20px;
+}
+.container .content:hover{
+  color: yellow;
+  transition: 0.5s;
+}
